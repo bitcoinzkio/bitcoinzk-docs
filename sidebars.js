@@ -30,41 +30,81 @@ const sidebars = {
    */
   mySidebar: [
     {
-      type: 'html',
-      value: 'OVERVIEW',
-      className: 'sidebar-title-first',
+      type: "html",
+      value: "General",
+      className: "sidebar-title-first",
     },
     {
-      type: 'doc',
-      id: 'overview/introduction',
-      label: 'Introduction'
+      type: "doc",
+      id: "general/About BitcoinZK",
+      label: "About BitcoinZK",
     },
     {
-      type: 'html',
-      value: 'RESOURCES',
-      className: 'sidebar-title',
+      type: "doc",
+      id: "general/Key Features",
+      label: "Key Features",
     },
     {
-      type: 'doc',
-      id: 'resources/repositories',
-      label: 'Repositories'
+      type: "doc",
+      id: "general/FAQs",
+      label: "FAQs",
     },
     {
-      type: 'doc',
-      id: 'resources/official-links',
-      label: 'Official Links'
+      type: "html",
+      value: "Learn",
+      className: "sidebar-title",
     },
     {
-      type: 'html',
-      value: 'DEVELOPERS',
-      className: 'sidebar-title',
+      type: "doc",
+      id: "resources/L2 for Bitcoin",
+      label: "L2 for Bitcoin",
     },
     {
-      type: 'doc',
-      id: 'developers/connecting-to-bitcoinzk',
-      label: 'Connecting to BitcoinZK'
-    }
-   ]
+      type: "doc",
+      id: "resources/Zero-knowledge",
+      label: "Zero-Knowledge",
+    },
+    {
+      type: "doc",
+      id: "resources/Rollup Architecture",
+      label: "Rollup Architecture",
+    },
+    {
+      type: "doc",
+      id: "resources/ZK Asset Bridge",
+      label: "ZK Asset Bridge",
+    },
+    {
+      type: "html",
+      value: "Use",
+      className: "sidebar-title",
+    },
+    {
+      type: "doc",
+      id: "resources/Deposit",
+      label: "Deposit BTC",
+    },
+    {
+      type: "doc",
+      id: "resources/Withdraw",
+      label: "Withdraw BTC",
+    },
+    {
+      type: "html",
+      value: "Build",
+      className: "sidebar-title",
+    },
+    {
+      type: "doc",
+      id: "resources/repositories",
+      label: "Repositories",
+    },
+    {
+      type: "doc",
+      id: "developers/connecting-to-bitcoinzk",
+      label: "Connecting to BitcoinZK",
+    },
+  ],
 };
 
 export default sidebars;

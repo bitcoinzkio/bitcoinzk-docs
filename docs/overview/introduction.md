@@ -1,6 +1,6 @@
 ---
-id: introduction
-title: ''
+id: About BitcoinZK
+title: ""
 slug: /
 hide_table_of_contents: false
 ---
