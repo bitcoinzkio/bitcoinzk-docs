@@ -4,44 +4,44 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BitcoinZK Docs',
-  tagline: 'BitcoinZK: A Bitcoin ZK L2 Network',
-  favicon: 'img/favicon.ico',
+  title: "BitcoinZK Docs",
+  tagline: "BitcoinZK: A Bitcoin ZK L2 Network",
+  favicon: "img/logo-t.svg",
 
   // Set the production url of your site here
-  url: 'https://docs.bitcoinzk.io',
+  url: "https://docs.bitcoinzk.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'BitcoinZK', // Usually your GitHub org/user name.
-  projectName: 'bitcoinzk-docs', // Usually your repo name.
+  organizationName: "BitcoinZK", // Usually your GitHub org/user name.
+  projectName: "bitcoinzk-docs", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: '/',
+          sidebarPath: "./sidebars.js",
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -55,7 +55,7 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -67,10 +67,9 @@ const config = {
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'BitcoinZK',
         logo: {
-          alt: 'BitcoinZK Logo',
-          src: 'img/logo.png',
+          alt: "BitcoinZK Logo",
+          src: "img/logo.svg",
         },
         // items: [
         //   {
@@ -137,18 +136,18 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: false,
       },
       mermaid: {
-        theme: {light: 'neutral', dark: 'neutral'},
+        theme: { light: "neutral", dark: "neutral" },
       },
     }),
-  
+
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: ["@docusaurus/theme-mermaid"],
 };
 
 export default config;
