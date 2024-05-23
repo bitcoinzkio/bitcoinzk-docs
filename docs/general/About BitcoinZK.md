@@ -35,9 +35,9 @@ Given Bitcoin's constraints and our goals of achieving throughput and contract c
 
 ## Resources and Links
 
-Official Website
+[Official Website](https://bitcoinzk.io)
 
-Blockchain Explorer
+[Blockchain Explorer](https://explorer-devnet.bitcoinzk.io)
 
 Network Info
 
