@@ -70,7 +70,7 @@ Geometric Decay Model: 25% of 500 million released in the first year, with an an
 
 BitcoinZK will adopt an on-chain governance model. The process may include the following steps:
 
-1. **Proposal Submission:**
+* **Proposal Submission:**
 
 Addresses holding more than a specified amount of Zyra tokens may submit governance proposals.
 
