@@ -8,7 +8,7 @@ sidebar_position: 2
 
 * RPC URL: [https://rpc-devnet.bitcoinzk.io](https://rpc-devnet.bitcoinzk.io/)
 
-* Chain ID: 1851
+* Chain ID: 97304
 
 * Currency symbol: BTC
 
