@@ -23,6 +23,7 @@ jobs:
       - name: Deploy Gh-Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.DK }}
+          external_repository: bitcoinzkio/gh-docs
           publish_dir: ./build
           cname: docs.bitcoinzk.io
