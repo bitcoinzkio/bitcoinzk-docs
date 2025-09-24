@@ -26,4 +26,4 @@ jobs:
           deploy_key: ${{ secrets.DK }}
           external_repository: bitcoinzkio/gh-docs
           publish_dir: ./build
-          cname: docs.bitcoinzk.io
+          cname: docs.btczk.io
