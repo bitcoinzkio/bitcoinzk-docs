@@ -6,11 +6,11 @@ sidebar_position: 2
 
 * Network name: BitcoinZK Devnet
 
-* RPC URL: [https://rpc-devnet.bitcoinzk.io](https://rpc-devnet.bitcoinzk.io/)
+* RPC URL: [https://rpc-devnet.btczk.io](https://rpc-devnet.btczk.io/)
 
 * Chain ID: 97304
 
 * Currency symbol: BTC
 
-* Block explorer URL: [https://explorer-devnet.bitcoinzk.io](https://explorer-devnet.bitcoinzk.io/)
+* Block explorer URL: [https://explorer-devnet.btczk.io](https://explorer-devnet.btczk.io/)
 

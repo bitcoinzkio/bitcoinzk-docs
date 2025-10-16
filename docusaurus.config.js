@@ -13,7 +13,7 @@ const config = {
   favicon: "img/logo-t.svg",
 
   // Set the production url of your site here
-  url: "https://docs.bitcoinzk.io",
+  url: "https://docs.btczk.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
